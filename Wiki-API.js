@@ -60,7 +60,7 @@ app.route("/articles").get(function (req, res) {
     });
   });
 
-//////////////////////////////// REQUESTS TARGETING A SPECIFIC ARTICLE ////////////////////////////////
+//////////////////////////////// REQUESTS TARGETING A SPECIFIC ARTICLE ///////////////////////////////
 
 app.route("/articles/:articleTitle")
   .get(function (req, res) {
